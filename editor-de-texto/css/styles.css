@@ -1,0 +1,252 @@
+
+
+#buttons {
+    width: 35%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+textarea {
+    border-radius: 10px;
+    width: 535px;
+    height: 300px;
+    resize: none;
+}
+
+#bold,#italic {
+    border-style: solid;
+    border-color: black;
+}
+
+#left,#center,#right {
+    border-style: solid;
+    border-color: black;
+}
+
+#uppercase,#lowercase,#upper-to-lower {
+    border-style: solid;
+    border-color: black;
+}
+
+#clear-text {
+    border-style: solid;
+    border-color: black;
+}
+
+#title {
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #buttons {
+        width: 87vw;
+    }
+
+    textarea {
+        width: 100vw;
+        height: 60vh;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #buttons {
+        width: 87vw;
+    }
+
+    textarea {
+        width: 100vw;
+        height: 60vh;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #buttons {
+        width: 87vw;
+    }
+
+    textarea {
+        width: 100vw;
+        height: 60vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1237.98px) {
+    #buttons {
+        width: 100vw;
+    }
+
+    textarea {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1499px) {
+    #buttons {
+        width: 36vw;
+        height: 8vh;
+    }
+
+    .btn {
+        font-size: .7rem;
+    }
+
+    #title h1 {
+        font-size: 1.2rem;
+    }
+
+    textarea {
+        width: 36vw;
+        height: 60vh;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1699px) {
+    #buttons {
+        width: 36vw;
+        height: 8vh;
+    }
+
+    .btn {
+        font-size: 1.1rem;
+    }
+
+    #title h1 {
+        font-size: 1.2rem;
+    }
+
+    textarea {
+        width: 36vw;
+        height: 70vh;
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (min-width: 1600px) and (max-width: 1799px) {
+    #buttons {
+        width: 36vw;
+        height: 8vh;
+    }
+
+    .btn {
+        font-size: 1.3rem;
+    }
+
+    #title h1 {
+        font-size: 1.5rem;
+    }
+
+    textarea {
+        width: 36vw;
+        height: 60vh;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width: 1800px) and (max-width: 1960px) {
+    #buttons {
+        width: 36vw;
+        height: 8vh;
+    }
+
+    .btn {
+        font-size: 1.7rem;
+    }
+
+    #title h1 {
+        font-size: 1.5rem;
+    }
+
+    textarea {
+        width: 36vw;
+        height: 60vh;
+        font-size: 2rem;
+    }
+
+}
+
+@media (min-width: 2000px) and (max-width: 2280px) {
+    #buttons {
+        width: 35vw;
+        height: 9vh;
+    }
+
+    .btn {
+        font-size: 2.3rem;
+    }
+
+    textarea {
+        width: 35vw;
+        height: 60vh;
+        font-size: 3rem;
+    }
+
+    #title h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 2400px) and (max-width: 2799px) {
+    #buttons {
+        width: 35vw;
+        height: 9vh;
+    }
+
+    .btn {
+        font-size: 3rem;
+    }
+
+    textarea {
+        width: 35vw;
+        height: 60vh;
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 2800px) and (max-width: 3416px) {
+    #buttons {
+        width: 35vw;
+        height: 10vh;
+    }
+
+    .btn {
+        font-size: 4.5rem;
+    }
+
+    textarea {
+        width: 35vw;
+        height: 60vh;
+        font-size: 4rem;
+    }
+
+
+}
+
+@media (min-width: 3500px) {
+    #buttons {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    #title h1 {
+        font-size: 3rem;
+    }
+
+    .btn {
+        padding-top: 1.2rem;
+        font-size: 5.5rem;
+    }
+
+    textarea {
+        width: 100vw;
+        height: 60vh;
+        font-size: 5rem;
+    }
+}
